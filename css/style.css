@@ -115,7 +115,7 @@ body{
 }
 /* WEB DEVELOPMENT SECTION CSS END  */
 
-/* WEB DEVELOPMENT SECTION CSS END  */
+/* INSPIRATION SECTION CSS START  */
 .inspiration-container{
     width: 1140px;
     margin:60px auto;
@@ -143,10 +143,10 @@ body{
 .inspiration-video iframe{
     border-radius: 20px;
 }
-/* WEB DEVELOPMENT SECTION CSS END  */
+/* INSPIRATION SECTION CSS END  */
 
 
-/* WEB DEVELOPMENT SECTION CSS END  */
+/* CURRENT TARGET SECTION CSS START  */
 .target-container{
     width: 1140px;
     margin:80px auto;
@@ -203,4 +203,79 @@ body{
     color: #0D1321;
     text-decoration: underline;
 }
-/* WEB DEVELOPMENT SECTION CSS END  */
+/* CURRENT TARGET SECTION CSS END  */
+
+/* SUPPORT SECTION START  */
+.support-section{
+    
+}
+.support-container{
+    width: 1140px;
+    margin:80px auto;
+    background-image: url(../images/handshake.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+}
+
+.support-section-title h3{
+    font-size: 32;
+    font-weight: 800;
+    color:#fff;
+}
+.support-section-title p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#b8b7b7;
+    padding: 10px 280px 40px 280px;
+}
+.support-form{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.support-form input{
+    width: 548px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #fff;
+    padding:0px 12px;
+}
+.support-form input::placeholder{
+    font-size: 16px;
+    line-height: 50px;
+    color:#313642;
+    font-weight: 400;
+    padding:0px 12px;
+}
+.support-form input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 50px;
+    color:#313642;
+    font-weight: 400;
+    padding:0px 12px;
+}
+.support-form input::-moz-placeholder {
+    font-size: 16px;
+    line-height: 50px;
+    color:#313642;
+    font-weight: 400;
+    padding:0px 12px;
+}
+
+.support-form button{
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 20px;
+    color:#0D1321;
+    font-weight: 600;
+    border-radius: 5px;
+    border:transparent;
+}
+/* SUPPORT SECTION END  */
