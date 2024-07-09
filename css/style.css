@@ -114,3 +114,33 @@ body{
     border-radius: 10px;
 }
 /* WEB DEVELOPMENT SECTION CSS END  */
+
+/* WEB DEVELOPMENT SECTION CSS END  */
+.inspiration-container{
+    width: 1140px;
+    margin:60px auto;
+}
+.inspiration-section-title{
+    text-align: center;
+}
+.inspiration-section-title h3{
+    font-size: 32;
+    font-weight: 800;
+    color:#0D1321;
+}
+.inspiration-section-title p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#0D1321;
+    padding: 10px 80px 40px 80px;
+}
+.inspiration-video{
+    border:1px solid #b4c2e0;
+    border-radius: 20px;
+    padding:20px;
+}
+.inspiration-video iframe{
+    border-radius: 20px;
+}
+/* WEB DEVELOPMENT SECTION CSS END  */
