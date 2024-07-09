@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a,p,h1,h2,h3,h4,h5,h6{
+    margin:0px;
+    padding:0px;
+    outline: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Azeret Mono", sans-serif;
+}
+
+/* Banner section part css start */
+.banner-section{
+    background-image: url(../images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding:40px 0px;
+}
+.banner-container{
+   width: 980px;
+   margin:auto;
+}
+.banner-container .banner-title h2{
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 800;
+}
+.banner-container .banner-text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color:#0D1321;
+    padding:15px 40px;
+}
+.banner-container .banner-btn a{
+    display: inline-block;
+    padding: 18px 30px;
+    background: #000;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+/* Banner section part css end */
