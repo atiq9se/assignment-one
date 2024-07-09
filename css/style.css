@@ -144,3 +144,63 @@ body{
     border-radius: 20px;
 }
 /* WEB DEVELOPMENT SECTION CSS END  */
+
+
+/* WEB DEVELOPMENT SECTION CSS END  */
+.target-container{
+    width: 1140px;
+    margin:80px auto;
+}
+.target-section-title{
+    text-align: center;
+}
+.target-section-title h3{
+    font-size: 32;
+    font-weight: 800;
+    color:#0D1321;
+}
+.target-section-title p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#0D1321;
+    padding: 10px 80px 40px 80px;
+}
+.target-content-main{
+    display: flex;
+    gap:20px;
+}
+.target-content-item{
+    border-radius: 10px;
+    padding:30px;
+}
+.target-content-item:first-child{
+    background-color: #fae4df;
+}
+.target-content-item:nth-child(2){
+    background-color: #d6e3fd;
+}
+.target-content-item:last-child{
+    background-color: #fcf6d4;
+}
+.target-content-text h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight:800;
+    color:#0D1321;
+    padding:15px 0px 10px 0px;
+}
+.target-content-text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight:400;
+    color: #0D1321;
+    padding-bottom: 10px;
+}
+.target-content-text a{
+    font-size: 16px;
+    font-weight:700;
+    color: #0D1321;
+    text-decoration: underline;
+}
+/* WEB DEVELOPMENT SECTION CSS END  */
