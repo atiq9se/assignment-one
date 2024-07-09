@@ -15,7 +15,7 @@ body{
     font-family: "Azeret Mono", sans-serif;
 }
 
-/* Banner section part css start */
+/* BANNER SECTION CSS START */
 .banner-section{
     background-image: url(../images/hero-bg.png);
     background-position: center;
@@ -49,4 +49,68 @@ body{
     font-weight: 600;
     border-radius: 8px;
 }
-/* Banner section part css end */
+/*  BANNER SECTION CSS END */
+
+/* WEB DEVELOPMENT SECTION CSS START  */
+.web-development-container{
+    width: 1140px;
+    margin:50px auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding:50px 60px;
+}
+.web-development-title{
+    text-align: center;
+    padding:70px 100px 50px 100px; 
+}
+.web-development-title h2{
+    font-size: 32px;
+    line-height: 42px;
+    color:#0D1321;
+}
+.web-development-part-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+.web-development-part-one-content,
+.web-development-part-one-img{
+    flex:0 0 50%;
+}
+.web-development-part-one-img{
+    text-align: center;
+}
+.web-development-part-one-content{
+    padding:40px 20px 40px 60px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+    border-radius: 10px;
+}
+.web-development-part-one-content h3, .web-development-part-two-content h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight:700;
+    color:#0D1321;
+}
+.web-development-part-one-content p, .web-development-part-two-content p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight:400;
+    color:#0D1321;
+    padding:20px 0px;
+}
+.web-development-part-one-content a, .web-development-part-two-content a{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight:600;
+    color:#0D1321;
+    display: inline-block;
+    padding: 10px 20px;
+    border:1px solid #0D1321;
+}
+.web-development-part-two-content{
+    padding:40px 20px 40px 60px;
+    background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 10px;
+}
+/* WEB DEVELOPMENT SECTION CSS END  */
